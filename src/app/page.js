@@ -12,26 +12,7 @@ export default function Home() {
   const handleMouseMove = () => {
       window.location.href = "/roboforexsite-connecting";
   };
-  // const handleClick = () => {
-  //   window.location.href = "/roboforex-connecting";
-  // }
-  // const fetchItem = async () => {
-  //   try {
-  //     const response = await fetch(`https://db-affiliate.onrender.com/status?id=3`);
-  //     if (!response.ok) {
-  //       throw new Error("Network response was not ok");
-  //     }
-  //     const data = await response.json();
-  //     setStatus(data?.status);
-  //   } catch (error) {
-  //     console.error("Error fetching item:", error);
-  //   }  finally {
-  //     setIsLoading(false);
-  //   }
-  // };
-  // useEffect(() => {
-  //   fetchItem()
-  // }, [])
+  
   return (
     <div 
     onMouseMove={handleMouseMove}
